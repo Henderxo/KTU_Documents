@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication4
+build_property.RootNamespace = WebApplication4
+build_property.ProjectDir = C:\Users\Lenovo\Desktop\KTU VISIS SEMESTRAI\2023 - 2024 1 Pusmetis\ISp\Last\ISP projektas\WebApplication4\WebApplication4\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lenovo\Desktop\KTU VISIS SEMESTRAI\2023 - 2024 1 Pusmetis\ISp\Last\ISP projektas\WebApplication4\WebApplication4
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Comparison/Comparison.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFyaXNvblxDb21wYXJpc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Forum/Forum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cRm9ydW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Home/Forum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3J1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Home/Store.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdG9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Home/_BaseProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQmFzZVByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Item/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Item/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Order/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Profile/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Profile/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Profile/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/KTU VISIS SEMESTRAI/2023 - 2024 1 Pusmetis/ISp/Last/ISP projektas/WebApplication4/WebApplication4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n52u41lzsi
