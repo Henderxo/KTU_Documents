@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\bin\Debug\net6.0\AlgoraiLB2.exe
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\bin\Debug\net6.0\AlgoraiLB2.deps.json
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\bin\Debug\net6.0\AlgoraiLB2.runtimeconfig.json
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\bin\Debug\net6.0\AlgoraiLB2.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\bin\Debug\net6.0\ref\AlgoraiLB2.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\bin\Debug\net6.0\AlgoraiLB2.pdb
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\ref\AlgoraiLB2.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.pdb
+C:\Users\Lenovo\source\repos\AlgoraiLB2\AlgoraiLB2\obj\Debug\net6.0\AlgoraiLB2.genruntimeconfig.cache

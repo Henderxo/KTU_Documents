@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Org.Ktu.Isk.P175B602.Autonuoma.Models.Spells.SpellsL>
+
+@* this will also be used as page title in main layout *@
+@{
+	ViewData["title"] = "Spells";
+}
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a href="@Url.Action("Create")" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Sukurti naują</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-lst">
+	<table class="entity-list">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.id)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.ClassName)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Damage)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Lvl_Req)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.ManaCost)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Target)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Description)
+				</th>				
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(model => item.id)
+					</td>
+					<td>
+						@Html.DisplayFor(model => item.ClassName)
+					</td>
+					<td>
+						@Html.DisplayFor(model => item.Damage)
+					</td>
+					<th>
+						@Html.DisplayFor(model => item.Lvl_Req)
+					</th>
+					<th>
+						@Html.DisplayFor(model => item.ManaCost)
+					</th>
+					<th>
+						@Html.DisplayFor(model => item.Target)
+					</th>
+					<th>
+						@Html.DisplayFor(model => item.Description)
+					</th>
+					
+					<td>
+						<a href="@Url.Action("Edit", new { id = item.id })" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> Redaguoti</a>
+						<a href="@Url.Action("Delete", new { id = item.id })" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Šalinti</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

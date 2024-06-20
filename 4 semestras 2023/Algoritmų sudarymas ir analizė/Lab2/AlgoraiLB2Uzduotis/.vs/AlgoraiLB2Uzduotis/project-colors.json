@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "db845eb8-e8be-455b-a3d3-100f11e77e17": {
+      "ProjectGuid": "db845eb8-e8be-455b-a3d3-100f11e77e17",
+      "DisplayName": "AlgoraiLB2Uzduotis",
+      "ColorIndex": 0
+    },
+    "d8a35580-71c5-40dc-98b0-075c3a8904e1": {
+      "ProjectGuid": "d8a35580-71c5-40dc-98b0-075c3a8904e1",
+      "DisplayName": "AlgoraiLB2UzduotisRekursiskai",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

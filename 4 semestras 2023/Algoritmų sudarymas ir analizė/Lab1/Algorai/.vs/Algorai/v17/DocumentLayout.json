@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\KTU\\4 semestras 2023\\Algoritm\u0173 sudarymas ir analiz\u0117\\Algorai\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C116D848-37E2-4FD6-8A28-8B5DC9E714AE}|Algorai\\Algorai.csproj|c:\\users\\lenovo\\desktop\\ktu\\4 semestras 2023\\algoritm\u0173 sudarymas ir analiz\u0117\\algorai\\algorai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C116D848-37E2-4FD6-8A28-8B5DC9E714AE}|Algorai\\Algorai.csproj|solutionrelative:algorai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\KTU\\4 semestras 2023\\Algoritm\u0173 sudarymas ir analiz\u0117\\Algorai\\Algorai\\Program.cs",
+              "RelativeDocumentMoniker": "Algorai\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\KTU\\4 semestras 2023\\Algoritm\u0173 sudarymas ir analiz\u0117\\Algorai\\Algorai\\Program.cs",
+              "RelativeToolTip": "Algorai\\Program.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:59:00.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

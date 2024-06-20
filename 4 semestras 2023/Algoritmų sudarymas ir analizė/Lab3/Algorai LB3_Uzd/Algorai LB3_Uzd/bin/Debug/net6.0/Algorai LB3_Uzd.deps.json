@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Algorai LB3_Uzd/1.0.0": {
+        "runtime": {
+          "Algorai LB3_Uzd.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Algorai LB3_Uzd/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

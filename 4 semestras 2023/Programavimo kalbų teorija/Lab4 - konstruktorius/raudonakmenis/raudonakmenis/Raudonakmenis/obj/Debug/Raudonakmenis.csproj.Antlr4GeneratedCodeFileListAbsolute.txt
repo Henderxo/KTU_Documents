@@ -1,0 +1,6 @@
+C:\Users\Lenovo\Desktop\Redsotne\raudonakmenis\raudonakmenis\Raudonakmenis\obj\Debug\GrammarLexer.cs
+C:\Users\Lenovo\Desktop\Redsotne\raudonakmenis\raudonakmenis\Raudonakmenis\obj\Debug\GrammarParser.cs
+C:\Users\Lenovo\Desktop\Redsotne\raudonakmenis\raudonakmenis\Raudonakmenis\obj\Debug\GrammarListener.cs
+C:\Users\Lenovo\Desktop\Redsotne\raudonakmenis\raudonakmenis\Raudonakmenis\obj\Debug\GrammarBaseListener.cs
+C:\Users\Lenovo\Desktop\Redsotne\raudonakmenis\raudonakmenis\Raudonakmenis\obj\Debug\GrammarVisitor.cs
+C:\Users\Lenovo\Desktop\Redsotne\raudonakmenis\raudonakmenis\Raudonakmenis\obj\Debug\GrammarBaseVisitor.cs

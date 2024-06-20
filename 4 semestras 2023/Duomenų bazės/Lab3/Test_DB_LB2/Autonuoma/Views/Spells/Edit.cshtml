@@ -1,0 +1,92 @@
+﻿@model Org.Ktu.Isk.P175B602.Autonuoma.Models.Spells.SpellsCE
+
+@* this will also be used as page title in main layout *@
+@{
+	ViewData["title"] = "Spells edit";
+}
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Atgal į sarašą
+		</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-ced">
+	@using (Html.BeginForm(FormMethod.Post, new { @class = "entity-ce" }))
+	{
+		@Html.AntiForgeryToken()
+
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+		<fieldset>
+			<div class="form-group">
+				@Html.LabelFor(m => m.Spells.id)
+				@Html.EditorFor(m => m.Spells.id, new { htmlAttributes = new { @readonly = "readonly" } })
+				@Html.ValidationMessageFor(m => m.Spells.id, "")
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(m => m.Spells.Description)
+				@Html.EditorFor(m => m.Spells.Description)
+				@Html.ValidationMessageFor(m => m.Spells.Description, "")
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(m => m.Spells.Damage)
+				@Html.EditorFor(m => m.Spells.Damage)
+				@Html.ValidationMessageFor(m => m.Spells.Damage, "")
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(m => m.Spells.FKClassName)
+				@Html.DropDownListFor(m => m.Spells.FKClassName, Model.Lists.Class, (string)ViewData["none-chosen"])
+				@Html.ValidationMessageFor(m => m.Spells.FKClassName, "")
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(m => m.Spells.Lvl_Req)
+				@Html.EditorFor(m => m.Spells.Lvl_Req)
+				@Html.ValidationMessageFor(m => m.Spells.Lvl_Req, "")
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(m => m.Spells.ManaCost)
+				@Html.EditorFor(m => m.Spells.ManaCost)
+				@Html.ValidationMessageFor(m => m.Spells.ManaCost, "")
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(m => m.Spells.Target)
+				@Html.EditorFor(m => m.Spells.Target)
+				@Html.ValidationMessageFor(m => m.Spells.Target, "")
+			</div>
+
+						
+		</fieldset>
+
+		<div class="container-fluid d-flex d-row justify-content-end">
+			<button name="save" value="1" class="btn btn-success"><i class="fa-solid fa-floppy-disk"></i> Išsaugoti</button>
+		</div>
+	}
+</div>
+
+@* content footer *@
+<div class="main-content-footer">
+	<span class="title"></span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Atgal į sarašą
+		</a>
+	</span>
+</div>
