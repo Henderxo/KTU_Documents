@@ -1,0 +1,45 @@
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.exe
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.deps.json
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.dll
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.pdb
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.AssemblyReference.cache
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.dll
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\refint\Lab1.dll
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.pdb
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache
+C:\Users\Agne\OneDrive - Kaunas University of Technology\Darbalaukis\Univeras\3 kursas\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\ref\Lab1.dll
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.exe
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.deps.json
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.dll
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\bin\Debug\net6.0\Lab1.pdb
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.AssemblyReference.cache
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.dll
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\refint\Lab1.dll
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.pdb
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache
+D:\Agne\Lygiagretusis programavimas\Lab1\Lab1\Lab1\obj\Debug\net6.0\ref\Lab1.dll
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\bin\Debug\net6.0\Lab1.exe
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\bin\Debug\net6.0\Lab1.deps.json
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\bin\Debug\net6.0\Lab1.dll
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\bin\Debug\net6.0\ref\Lab1.dll
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\bin\Debug\net6.0\Lab1.pdb
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.dll
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\ref\Lab1.dll
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.pdb
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache

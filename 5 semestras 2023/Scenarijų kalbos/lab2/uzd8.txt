@@ -1,0 +1,99 @@
+#!/bin/bash
+
+if [ $# -ne 3 ]; then
+	echo "Neteisingi argumentai"
+	exit 1
+fi
+
+uzd=$1
+date=$2
+type=$3
+path_full="backup/full"
+path_daily="backup/daily"
+timestamp1=$(date -d "$2" +%s)
+timestamp2=$(($timestamp1 - 7*24*60*60))
+copies_to_delete=()
+copies_to_archive=()
+dates=()
+
+if [ "$uzd" == "sunaikinti" ]; then
+	if [ "$type" == "pilna" ]; then
+		#Einame per visas kopijas ir ieskome kopijos kuri yra arciausiai duotos datos
+		while read -r copy; do
+    			last_char="${copy: -8}"
+			timestamp=$(date -d "$last_char" +%s)
+			day_difference=$((($timestamp2 - $timestamp) / (60*60*24)))
+			if [ "$day_difference" -ge 0 ]; then
+				day_difference=$((day_difference + 7))
+				echo "How old is this save, Days: $day_difference"
+				echo "$copy"
+				copies_to_delete+=("$copy")
+			fi
+		done < <(ssh nedlia@stud.if.ktu.lt "ls -d $path_full/backup_failai_kopijos_* | grep -E 'backup_failai_kopijos_[0-9]{8}' | sort -t_ -k2,2 -n")
+		for copy_to_delete in "${copies_to_delete[@]}"; do
+			echo "Deleting: $copy_to_delete"
+			ssh nedlia@stud.if.ktu.lt "rm -r '$copy_to_delete'"
+		done
+	fi
+	if [ "$type" == "prieaugline" ]; then
+		#Einame per visas kopijas ir ieskome kopijos kuri yra arciausiai duotos datos
+		while read -r copy; do
+			last_char="${copy: -8}"
+			timestamp=$(date -d "$last_char" +%s)
+			day_difference=$((($timestamp2 - $timestamp) / (60*60*24)))
+			if [ "$day_difference" -ge 0 ]; then
+				day_difference=$((day_difference + 7))
+				echo "How old is this save, Days: $day_difference"
+				echo "$copy"
+				copies_to_delete+=("$copy")
+			fi
+		done < <(ssh nedlia@stud.if.ktu.lt "ls -d $path_daily/backup_failai_kopijos_* | grep -E 'backup_failai_kopijos_[0-9]{8}' | sort -t_ -k2,2 -n")
+		for copy_to_delete in "${copies_to_delete[@]}"; do
+			echo "Deleting: $copy_to_delete"
+			ssh nedlia@stud.if.ktu.lt "rm -r '$copy_to_delete'"
+		done
+        fi
+fi
+
+if [ "$uzd" == "suarchyvuoti" ]; then
+	if [ "$type" == "prieaugline" ]; then
+		#Einame per visas kopijas ir ieskome kopijos kuri yra arciausiai duotos datos
+                while read -r copy; do
+                        last_char="${copy: -8}"
+                        timestamp=$(date -d "$last_char" +%s)
+                        day_difference=$((($timestamp2 - $timestamp) / (60*60*24)))
+                        if [ "$day_difference" -ge 0 ]; then
+                                day_difference=$((day_difference + 7))
+                                echo "How old is this save, Days: $day_difference"
+                                echo "$copy"
+                                copies_to_archive+=("$copy")
+                        fi
+                done < <(ssh nedlia@stud.if.ktu.lt "ls -d $path_daily/backup_failai_kopijos_* | grep -E 'backup_failai_kopijos_[0-9]{8}' | sort -t_ -k2,2 -n")
+                for copy_to_archive in "${copies_to_archive[@]}"; do
+                        echo "Adding to Archive: $copy_to_archive"
+                        ssh nedlia@stud.if.ktu.lt "rm -r '$copy_to_archive'"
+                done
+	fi
+	if [ "$type" == "pilna" ]; then
+		#Einame per visas kopijas ir ieskome kopijos kuri yra arciausiai duotos datos
+                while read -r copy; do
+                        last_char="${copy: -8}"
+                        timestamp=$(date -d "$last_char" +%s)
+                        day_difference=$((($timestamp2 - $timestamp) / (60*60*24)))
+                        if [ "$day_difference" -ge 0 ]; then
+                                day_difference=$((day_difference + 7))
+                                echo "How old is this save, Days: $day_difference"
+                                echo "$copy"
+                                copies_to_archive+=("$copy")
+				dates+=("$last_char")
+                        fi
+                done < <(ssh nedlia@stud.if.ktu.lt "ls -d $path_full/backup_failai_kopijos_* | grep -E 'backup_failai_kopijos_[0-9]{8}' | sort -t_ -k2,2 -n")
+
+                for copy_to_archive in "${copies_to_archive[@]}"; do
+			last_8_chars="${copy_to_archive: -8}"
+                        echo "Adding to Archive: $copy_to_archive"
+                        ssh nedlia@stud.if.ktu.lt "tar -cvf 'archyvas$last_8_chars.tar' '$copy_to_archive'"
+                done
+        fi
+
+fi

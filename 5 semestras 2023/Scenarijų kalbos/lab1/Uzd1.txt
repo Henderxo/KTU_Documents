@@ -1,0 +1,49 @@
+#!/bin/bash
+
+if [ "$#" -lt 2 ]; then
+  echo "Naudojimas: $0 <stud_vardas> <failo_priesaga1> [<failo_priesaga2> ...]"
+  exit 1
+fi
+name="$1"
+shift
+galunes=("$@")
+echo $galunes
+line=""
+z=0
+for i in $@; do
+        if [ "$i" = ".html" ]; then
+                echo "worked"
+                if [ $z = 0 ]; then
+                line="\.html$"
+                z=1
+                else
+                line="$line|\.html$"
+                fi
+        fi
+        if [ "$i" = ".php" ]; then
+                echo "worked"
+                if [ $z = 0 ]; then
+                line="\.php$"
+                z=1
+                else
+                line="$line|\.php$"
+                fi
+        fi
+        if [ "$i" = ".htm" ]; then
+                echo "worked"
+                if [ $z = 0 ]; then
+                line="\.htm$"
+                z=1
+                else
+                line="$line|\.htm$"
+                fi
+        fi
+
+done
+echo $line
+ssh_command="cd ./public_html && ls | grep -E '$line'"
+ssh "$name@stud.if.ktu.lt" <<EOF
+cd ./public_html
+ls | grep -E '$line'
+ls | grep -E '$line' | du -ch
+EOF

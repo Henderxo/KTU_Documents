@@ -1,0 +1,11 @@
+﻿  InOutUtils.cpp
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1b\Lab1b\Lab1b\InOutUtils.cpp(18,75): warning C4244: 'argument': conversion from 'ValueType' to 'int', possible loss of data
+          with
+          [
+              ValueType=__int64
+          ]
+  Lab1b.cpp
+C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1b\Lab1b\Lab1b\Lab1b.cpp(22,68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ProcessedCharacter.cpp
+  Generating Code...
+  Lab1b.vcxproj -> C:\Users\Lenovo\Desktop\NKJSDFKJSDNF\Lab1b\Lab1b\x64\Debug\Lab1b.exe

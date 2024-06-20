@@ -1,0 +1,92 @@
+#!/bin/bash
+
+#Patikrina kike yra argumentu
+if [ $# -ne 2 ]; then
+    echo "Truksta kapijos tipo ir datos argumentu"
+    exit 1
+fi
+
+
+full_katalogas="backup/full/backup_failai_kopijos_$2"
+path="backup/full"
+path_daily="backup/daily"
+
+if [ "$1" == "pilna" ]; then
+	#Patikrina ar jau egzistuoja tokia full/copy, jeigu ne nukopijuoja
+	echo "Tikriname ar egzistuoja pilna kopija, $full_katalogas"
+	ssh_result=$(ssh nedlia@stud.if.ktu.lt "[ -d '$full_katalogas' ] && echo 'Exists' || echo 'Not exists'")
+	if [ "$ssh_result" == "Exists" ]; then
+		echo "A full copy of $full_katalogas already exist"
+		exit 1
+	else
+		#Kopijavimas
+		ssh nedlia@stud.if.ktu.lt "mkdir $full_katalogas"
+	        scp -r -O ./failai nedlia@stud.if.ktu.lt:./backup/full/backup_failai_kopijos_$2
+		#Updates ./failai dates
+		find ./failai -type f -exec touch {} \;
+		echo "A new full copy was created in $full_katalogas"
+		exit 1
+	fi
+
+
+fi
+
+if [ "$1" != "prieaugline" ]; then
+	exit 1
+fi
+#Patikriname ar yra nors viena pilna kopija
+echo "Tikriname ar yra nors viena pilna kopija"
+ssh_result=$(ssh nedlia@stud.if.ktu.lt "ls -d $path/backup_failai_kopijos_*")
+if [ -z == "$ssh_result" ]; then
+	echo "The $path dose not contain any full save, so a new dirrectory will be created $full_katalogas"
+	ssh nedlia@stud.if.ktu.lt "mkdir $full_katalogas"
+	scp -r -O ./failai nedlia@stud.if.ktu.lt:./backup/full/backup_failai_kopijos_$2
+	#Updates ./failai dates
+        find ./failai -type f -exec touch {} \;
+fi
+#Ieskome nuajausios pilnos kopijos
+echo "Ieskome naujausios pilnos kopijos"
+naujausia_pilna_kopija=$(ssh nedlia@stud.if.ktu.lt "ls -d $path/backup_failai_kopijos_* | sort -t_ -k2,2 -n | tail -n 1")
+echo "Naujausia pilna kopija: $naujausia_pilna_kopija"
+last_char="${naujausia_pilna_kopija: -8}"
+
+timestamp1=$(date -d "$2" +%s)
+timestamp2=$(date -d "$last_char" +%s)
+#Dienu skirtumas
+day_difference=$((($timestamp1 - $timestamp2) / (60*60*24)))
+
+if [ "$day_difference" -lt 7 ]; then
+	dir_path="$path_daily/backup_failai_kopijos_$2"
+	if ssh nedlia@stud.if.ktu.lt "test -e '$dir_path'" ; then
+		echo "The server already has a daily coppy of that day, so the copy will be replaced"
+		ssh nedlia@stud.if.ktu.lt "rm -r '$dir_path'"
+	fi
+	ssh nedlia@stud.if.ktu.lt "mkdir $dir_path"
+	echo "Less then a week"
+	for file in ./failai/*; do
+		filename=$(basename "$file")
+		echo "$filename"
+		timestamp1=$(stat -c %Y "$file")
+		file2="$naujausia_pilna_kopija/failai/$filename"
+		if ssh nedlia@stud.if.ktu.lt "test -e '$file2'"; then
+			timestamp2=$(ssh nedlia@stud.if.ktu.lt "stat -c %Y '$file2'")
+			echo $timestamp2
+			hours_difference=$(( (timestamp1 - timestamp2) / 3600 ))
+			if [ "$hours_difference" -eq 0 ]; then
+				echo "Same mod date"
+			else
+				echo "Diff mod date"
+				scp -r -O $file nedlia@stud.if.ktu.lt:$dir_path
+			fi
+		else
+		scp -r -O $file nedlia@stud.if.ktu.lt:$dir_path
+		fi
+	done
+else
+	echo "More then a week has passed since the last full copy, so a new full copy will be made"
+	ssh nedlia@stud.if.ktu.lt "mkdir $full_katalogas"
+        scp -r -O ./failai nedlia@stud.if.ktu.lt:./backup/full/backup_failai_kopijos_$2
+	#Updates ./failai dates
+        find ./failai -type f -exec touch {} \;
+
+fi

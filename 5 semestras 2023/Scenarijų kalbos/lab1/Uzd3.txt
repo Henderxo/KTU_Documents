@@ -1,0 +1,31 @@
+#!/bin/bash
+
+file="/home/stud/stud/stud.csv"
+gen_pass() { #slaptažodžius generuojanti funkcija
+[ "$2" == "0" ] && CHAR="[:alnum:]" || CHAR="[:graph:]"
+ cat /dev/urandom | tr -cd "$CHAR" | head -c ${1:-32}
+ echo
+}
+
+
+
+if [ -e "$file" ]; then
+cat "$file"
+else
+echo "File '$file' does not exist"
+fi
+
+
+names=($(awk -F';' '{print$2}' "$file" | awk '{print$1}' | awk '{print substr($0, 1, 4)}'))
+echo $names
+echo "Surnames"
+surnames=($(awk -F';' '{print$2}' "$file" | awk '{print$2}' | awk '{print substr($0, 1, 4)}'))
+echo $surnames
+
+amount=${#names[@]}
+
+
+for ((i=0; i<=amount -1; i++)); do
+        password=$(gen_pass 12 1)
+        echo "${names[i]}${surnames[i]} $password"
+done

@@ -1,0 +1,87 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+	echo "Netikamas argumentu kiekis, reikia datos"
+	exit 1
+fi
+
+
+path="backup/full"
+path2="backup/daily"
+date="$1"
+echo $path
+echo $date
+max=999999999
+full_path=""
+daily_path=""
+
+
+#Patikriname ar yra nors viena full kopija
+ssh_result=$(ssh nedlia@stud.if.ktu.lt "ls -d $path/backup_failai_kopijos_*")
+if [ -z == "$ssh_result" ]; then
+	echo "0 Full copies found"
+	exit 1
+fi
+
+#Einame per visas kopijas ir ieskome kopijos kuri yra arciausiai duotos datos
+while read -r copy; do
+    last_char="${copy: -8}"
+	timestamp1=$(date -d "$last_char" +%s)
+	timestamp2=$(date -d "$date" +%s)
+	day_difference=$((($timestamp2 - $timestamp1) / (60*60*24)))
+	if [ "$day_difference" -ge 0 ] && [ "$day_difference" -le "$max" ]; then
+		max="$day_difference"
+		full_path="$copy"
+	fi
+done < <(ssh nedlia@stud.if.ktu.lt "ls -d $path/backup_failai_kopijos_* | grep -E 'backup_failai_kopijos_[0-9]{8}' | sort -t_ -k2,2 -n")
+
+
+#Patikriname ar pati geriausia kopija nera pilna
+if [ "$max" -eq 0 ]; then
+	echo "Full copy is the copy that will be used to restore the data"
+	#Perkeliame failus is pilnos kopijos
+	scp -r -O nedlia@stud.if.ktu.lt:./$full_path/failai/ ./
+	exit 1
+fi
+if [ -z == "$ssh_result" ]; then
+        echo "0 Full copies found"
+        exit 1
+fi
+#Patikriname ar radome nors viena kopija, kuri atitinka duota data
+if [ "$max" -eq 999999999 ]; then
+
+	echo "No full copies found, that fit the current given date"
+	exit 1
+fi
+
+echo $full_path
+#Perkeliame failus is pilnos kopijos
+scp -r -O nedlia@stud.if.ktu.lt:./$full_path/failai/ ./
+
+
+max=99999
+while read -r copy; do
+    last_char="${copy: -8}"
+        timestamp1=$(date -d "$last_char" +%s)
+        timestamp2=$(date -d "$date" +%s)
+        day_difference=$((($timestamp2 - $timestamp1) / (60*60*24)))
+        if [ "$day_difference" -ge 0 ] && [ "$day_difference" -le "$max" ]; then
+                max="$day_difference"
+                daily_path="$copy"
+        fi
+done < <(ssh nedlia@stud.if.ktu.lt "ls -d $path2/backup_failai_kopijos_* | grep -E 'backup_failai_kopijos_[0-9]{8}' | sort -t_ -k2,2 -n")
+
+if [ "$max" -eq 99999 ]; then
+	echo "No daily copies where found"
+	exit 1
+fi
+
+echo $daily_path
+
+remote_files=$(ssh nedlia@stud.if.ktu.lt "ls '$daily_path'")
+
+for file in $remote_files; do
+
+	echo "File: $file"
+	scp nedlia@stud.if.ktu.lt:$daily_path/$file ./failai
+done
