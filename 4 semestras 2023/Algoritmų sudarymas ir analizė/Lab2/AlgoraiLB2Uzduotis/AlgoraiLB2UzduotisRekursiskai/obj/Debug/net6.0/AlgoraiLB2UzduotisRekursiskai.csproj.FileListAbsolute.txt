@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\bin\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.exe
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\bin\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.deps.json
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\bin\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.runtimeconfig.json
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\bin\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\bin\Debug\net6.0\ref\AlgoraiLB2UzduotisRekursiskai.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\bin\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.pdb
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\ref\AlgoraiLB2UzduotisRekursiskai.dll
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.pdb
+C:\Users\Lenovo\source\repos\AlgoraiLB2Uzduotis\AlgoraiLB2UzduotisRekursiskai\obj\Debug\net6.0\AlgoraiLB2UzduotisRekursiskai.genruntimeconfig.cache

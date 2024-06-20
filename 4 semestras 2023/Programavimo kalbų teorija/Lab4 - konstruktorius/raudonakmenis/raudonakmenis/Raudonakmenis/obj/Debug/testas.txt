@@ -1,0 +1,11 @@
+﻿int Function(int d)
+{
+d++;
+return d;
+}
+
+int f = Function(10);
+
+PRINT(f);
+
+

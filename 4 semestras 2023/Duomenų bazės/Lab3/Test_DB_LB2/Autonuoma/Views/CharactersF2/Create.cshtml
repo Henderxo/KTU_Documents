@@ -1,0 +1,153 @@
+﻿@model Org.Ktu.Isk.P175B602.Autonuoma.Models.CharactersF2.CharactersCE
+
+@* this will also be used as page title in main layout *@
+@{ ViewData["title"] = "Character (F2)"; }
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Back to the list
+		</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-ced">
+@using( Html.BeginForm(FormMethod.Post, new { @class="entity-ce" }) )
+{
+	@Html.AntiForgeryToken()
+
+	@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+	@* add hidden form fields for non-visible properties, otherwise they will get lost in code that handles button presses *@
+	@Html.HiddenFor(m => m.Characters.id)
+
+	<fieldset>
+		<legend class="text-center">Character info</legend>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.CreationDate)
+			@Html.TextBoxFor(m => m.Characters.CreationDate, "{0:yyyy-MM-dd}", new { @class = "date-picker" })
+			@Html.ValidationMessageFor(m => m.Characters.CreationDate, "")
+		</div>
+		
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.Name)
+			@Html.EditorFor(m => m.Characters.Name)
+			@Html.ValidationMessageFor(m => m.Characters.Name, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.id)
+			@Html.EditorFor(m => m.Characters.id)
+			@Html.ValidationMessageFor(m => m.Characters.id, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.Status)
+			@Html.EditorFor(m => m.Characters.Status)
+			@Html.ValidationMessageFor(m =>m.Characters.Status, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.FkClass)
+			@Html.DropDownListFor(m => m.Characters.FkClass, Model.Lists.Class, (string)ViewData["none-chosen"])
+			@Html.ValidationMessageFor(m => m.Characters.FkClass, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.FkFaction)
+			@Html.DropDownListFor(m => m.Characters.FkFaction, Model.Lists.Faction, (string)ViewData["none-chosen"])
+			@Html.ValidationMessageFor(m => m.Characters.FkFaction, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.FkRace_info)
+			@Html.DropDownListFor(m => m.Characters.FkRace_info, Model.Lists.Race_Info, (string)ViewData["none-chosen"])
+			@Html.ValidationMessageFor(m => m.Characters.FkRace_info, "")
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(m => m.Characters.FkUser)
+			@Html.DropDownListFor(m => m.Characters.FkUser, Model.Lists.Users, (string)ViewData["none-chosen"])
+			@Html.ValidationMessageFor(m => m.Characters.FkUser, "")
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<div class="container-fluid d-flex d-row justify-content-between align-items-center">
+			<span></span>
+			<legend style="width: unset; margin-bottom: 0px;">Quests:</legend>
+			<button
+				name="add"
+				value="1"
+				formnovalidate @*ASP.NET Core magic attribute to prevent client side validation when submit button is clicked*@
+				formaction="@Url.Action()#listEnd"
+				class="btn btn-info"
+			><i class="fa-solid fa-plus"></i> Add</button>
+		</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for( var i = 0; i < Model.Quests.Count; i++ ) {
+				<tr>
+					<td class="form-group">
+						@* add hidden form fields for non-visible properties, otherwise they will get lost in code that handles button presses *@
+							@Html.HiddenFor(m => m.Quests[i].List_Id)
+
+						@Html.DropDownListFor(
+							m => m.Quests[i].Quest_Id, 
+							Model.Lists.Quests, 
+							(string)ViewData["none-chosen"]
+						)
+							@Html.ValidationMessageFor(m => m.Quests[i].Description, "")
+					</td>
+					
+					
+					
+					<td>
+						<button
+							name="remove"
+							value="@Model.Quests[i].List_Id"
+							formnovalidate @*ASP.NET Core magic attribute to prevent client side validation when submit button is clicked*@
+							formaction="@Url.Action()#listEnd"
+							class="btn btn-danger"							
+						><i class="fa-solid fa-trash"></i> Delete</button>
+					</td>
+				</tr>
+				}
+			</tbody>
+		</table>
+
+		@* this is used as a marker to automatically scroll down to the end of items list when returning from button presses *@
+		<span id="listEnd"></span>
+	</fieldset>
+
+	<div class="container-fluid d-flex d-row justify-content-end">
+		<button name="save" value="1" class="btn btn-success"><i class="fa-solid fa-floppy-disk"></i> Išsaugoti</button>
+	</div>
+}
+</div>
+
+@* content footer *@
+<div class="main-content-footer">
+	<span class="title"></span>
+	<span class="actions">
+		<a 
+			href="@Url.Action("Index")" 
+			class="btn btn-outline-primary btn-sm"
+		>
+			<i class="fa-solid fa-angles-left"></i> Back to the list
+		</a>
+	</span>
+</div>

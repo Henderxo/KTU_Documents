@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoraiLB2", "AlgoraiLB2\AlgoraiLB2.csproj", "{1FE2BE1C-B9E6-463D-BB7E-79475EB3EC81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE2BE1C-B9E6-463D-BB7E-79475EB3EC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE2BE1C-B9E6-463D-BB7E-79475EB3EC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE2BE1C-B9E6-463D-BB7E-79475EB3EC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE2BE1C-B9E6-463D-BB7E-79475EB3EC81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8105EFF-5837-4B3A-A73D-FA2742A19585}
+	EndGlobalSection
+EndGlobal

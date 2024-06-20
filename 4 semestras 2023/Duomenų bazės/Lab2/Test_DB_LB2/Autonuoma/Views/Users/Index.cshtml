@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Org.Ktu.Isk.P175B602.Autonuoma.Models.Users.Users>
+
+@* this will also be used as page title in main layout *@
+@{
+	ViewData["title"] = "Users";
+}
+
+@* content header *@
+<div class="main-content-header">
+	<span class="title">@ViewData["title"]</span>
+	<span class="actions">
+		<a href="@Url.Action("Create")" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Sukurti naują</a>
+	</span>
+</div>
+
+@* content itself *@
+<div class="main-content-lst">
+	<table class="entity-list">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.id)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Username)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Email)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.AccessType)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.CreationDate)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Password)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Status)
+				</th>
+			
+							
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(model => item.id)
+					</td>
+					<td>
+						@Html.DisplayFor(model => item.Username)
+					</td>
+					<td>
+						@Html.DisplayFor(model => item.Email)
+					</td>
+					<td>
+						@Html.DisplayFor(model => item.AccessType)
+					</td>
+					<th>
+						@Html.DisplayFor(model => item.CreationDate)
+					</th>
+					<th>
+						@Html.DisplayFor(model => item.Password)
+					</th>
+					<th>
+						@Html.DisplayFor(model => item.Status)
+					</th>
+					
+					<td>
+						<a href="@Url.Action("Edit", new { id = item.id })" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> Redaguoti</a>
+						<a href="@Url.Action("Delete", new { id = item.id })" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Šalinti</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
