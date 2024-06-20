@@ -1,139 +1,51 @@
 C:\Users\Lenovo\Desktop\KTU REPO\KTU_Documents
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Node.js
-node_modules/
-dist/
-npm-debug.log*
-yarn-error.log*
-
-# Dependency directories
-bower_components/
-jspm_packages/
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Mac system files
-.DS_Store
-
-# Windows system files
-Thumbs.db
-ehthumbs.db
-
-# IDEs and editors
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.vcxproj
-*.sln
-
-# Rider
-.idea/
-
-# Visual Studio
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userossc
-*.usr
-
-# User-specific files (Mono Auto Generated)
-mono_crash.*
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Visual Studio Code
-.vscode/
-
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-env/
-venv/
+*.py[cod]
 
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.iml
-target/
+# C extensions
+*.so
 
-# Ruby
-*.gem
-*.rbc
-.bundle/
-log/
-tmp/
-build/
-*.rvmrc
-.project
-.DS_Store
-
-# Go
+# Distribution / packaging
 bin/
-*.exe
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Rust
-target/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# C++
-*.out
-*.o
-*.obj
-*.exe
-*.pdb
-*.ilk
-*.idb
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
 
-# Swift
-*.xcodeproj/
-*.xcworkspace/
-DerivedData/
-.build/
+# Translations
+*.mo
 
-# Archives
-*.zip
-*.tar.gz
-*.7z
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
 
-# Database
-*.sqlite
-*.db
-*.sql
+# Rope
+.ropeproject
 
-# Images
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
-*.ico
-*.svg
+# Django stuff:
+*.log
+*.pot
 
-# Office
-*.doc
-*.docx
-*.xls
-*.xlsx
-*.ppt
-*.pptx
-
-# Miscellaneous
-*.tmp
-*.temp
-*.bak
+# Sphinx documentation
+docs/_build/
