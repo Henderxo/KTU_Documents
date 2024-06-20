@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Plain.RabbitMQ</id>
+    <version>0.0.0.4</version>
+    <authors>Nirjhar Choudhury</authors>
+    <projectUrl>https://github.com/choudhurynirjhar/plain-rabbitmq</projectUrl>
+    <description>A plain and simple wrapper around RabbitMQ.Client encapsulating the boilerplate code.
+
+https://dotnetcorecentral.com/
+https://www.youtube.com/c/dotnetcorecentral</description>
+    <releaseNotes>10/03/2020: Initial version
+10/03/2020: Fix namespaces
+10/03/2020: Fix issue with auto ack</releaseNotes>
+    <repository type="git" url="https://github.com/choudhurynirjhar/plain-rabbitmq" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="RabbitMQ.Client" version="6.2.1" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Lenovo\Desktop\Cloud2_New\Lab4-University\Plain.RabbitMQ\bin\Debug\netcoreapp3.1\Plain.RabbitMQ.dll" target="lib\netcoreapp3.1\Plain.RabbitMQ.dll" />
+  </files>
+</package>

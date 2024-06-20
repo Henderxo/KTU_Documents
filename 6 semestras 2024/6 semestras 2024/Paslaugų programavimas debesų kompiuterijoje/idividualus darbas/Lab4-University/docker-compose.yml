@@ -1,0 +1,56 @@
+version: '3.4'
+
+services:
+  apigateway:
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    depends_on:
+      - studentsapi
+      - coursesapi
+
+  studentsapi:
+    image: ${DOCKER_REGISTRY-}studentsapi
+    build:
+      context: .
+      dockerfile: StudentsAPI/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+      rabbitmq:
+        condition: service_healthy
+ 
+  coursesapi:
+    image: ${DOCKER_REGISTRY-}coursesapi
+    build:
+      context: .
+      dockerfile: CoursesAPI/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+      rabbitmq:
+        condition: service_healthy
+
+  webapp:
+    image: ${DOCKER_REGISTRY-}webapp
+    build:
+      context: .
+      dockerfile: WebApp/Dockerfile
+    depends_on:
+      - studentsapi
+      - coursesapi
+
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 5s
+      timeout: 30s
+      retries: 3
+    
+  
+

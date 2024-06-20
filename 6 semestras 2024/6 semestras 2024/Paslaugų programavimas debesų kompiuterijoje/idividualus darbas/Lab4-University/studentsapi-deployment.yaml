@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: studentsapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: studentsapi
+  template:
+    metadata:
+      labels:
+        app: studentsapi
+    spec:
+      containers:
+      - name: studentsapi
+        image: mycontainerregistry200.azurecr.io/studentsapi:latest
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Development
+        - name: ASPNETCORE_HTTP_PORTS
+          value: "8080"
+        - name: ConnectionStrings__StudentsAPIContext
+          value: "Server=sqldata;Database=StudentDB;User Id=sa;Password=My!P@ssw0rd1;Encrypt=False"
+        - name: MessageBroker__Host
+          value: "amqp://Nedas:test@rabbitmq:5672"
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: acr-credentials  # Reference to the secret created above
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: studentsapi
+spec:
+  selector:
+    app: studentsapi
+  ports:
+  - protocol: TCP
+    port: 5081
+    targetPort: 8080
