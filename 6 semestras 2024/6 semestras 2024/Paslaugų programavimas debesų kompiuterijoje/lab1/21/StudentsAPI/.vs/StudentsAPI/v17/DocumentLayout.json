@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\courseapi\\data\\coursesapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|solutionrelative:courseapi\\data\\coursesapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\courseapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|solutionrelative:courseapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\data\\studentsapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\data\\studentsapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{26619B75-6FC5-49EB-B274-7DF8DA1FED3A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\courseapi\\courseapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|solutionrelative:courseapi\\courseapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\courseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|solutionrelative:courseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\courseapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|solutionrelative:courseapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\courseapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{07318BCA-D0B6-41AD-BB08-90B76D21B5C8}|CourseAPI\\CourseAPI.csproj|solutionrelative:courseapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\lenovo\\desktop\\cloud lab 2\\21\\studentsapi\\studentsapi\\studentsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D80B38F5-15BE-4BDF-9E0F-A84A8EB4F0C6}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\studentsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T15:43:56.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-15T15:43:54.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-15T15:27:25.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "StudentsAPI\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:59:24.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesAPIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Data\\CoursesAPIContext.cs",
+              "RelativeDocumentMoniker": "CourseAPI\\Data\\CoursesAPIContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Data\\CoursesAPIContext.cs",
+              "RelativeToolTip": "CourseAPI\\Data\\CoursesAPIContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T15:32:35.532Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Data\\SeedData.cs",
+              "RelativeToolTip": "StudentsAPI\\Data\\SeedData.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:00:15.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Models\\Enrollment.cs",
+              "RelativeToolTip": "StudentsAPI\\Models\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:55:44.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Models\\Student.cs",
+              "RelativeToolTip": "StudentsAPI\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:55:08.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "CourseAPI\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Models\\Course.cs",
+              "RelativeToolTip": "CourseAPI\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:15:33.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-15T15:25:58.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Program.cs",
+              "RelativeToolTip": "StudentsAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:59:37.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentsAPIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Data\\StudentsAPIContext.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Data\\StudentsAPIContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Data\\StudentsAPIContext.cs",
+              "RelativeToolTip": "StudentsAPI\\Data\\StudentsAPIContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:59:55.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseAPI.http",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\CourseAPI.http",
+              "RelativeDocumentMoniker": "CourseAPI\\CourseAPI.http",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\CourseAPI.http",
+              "RelativeToolTip": "CourseAPI\\CourseAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-15T15:38:22.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CourseAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Program.cs",
+              "RelativeToolTip": "CourseAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:15:09.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentsAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\appsettings.json",
+              "RelativeToolTip": "StudentsAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T15:11:43.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CourseAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\appsettings.json",
+              "RelativeToolTip": "CourseAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T15:33:51.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "CourseAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\CourseAPI\\Dockerfile",
+              "RelativeToolTip": "CourseAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-15T15:23:08.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "StudentsAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\Dockerfile",
+              "RelativeToolTip": "StudentsAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-15T15:02:53.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentsAPI.http",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\StudentsAPI.http",
+              "RelativeDocumentMoniker": "StudentsAPI\\StudentsAPI.http",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Cloud lab 2\\21\\StudentsAPI\\StudentsAPI\\StudentsAPI.http",
+              "RelativeToolTip": "StudentsAPI\\StudentsAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-15T15:11:39.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

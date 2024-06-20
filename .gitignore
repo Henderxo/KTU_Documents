@@ -33,7 +33,28 @@ ehthumbs.db
 *.suo
 *.ntvs*
 *.njsproj
+*.vcxproj
 *.sln
+
+# Rider
+.idea/
+
+# Visual Studio
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userossc
+*.usr
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio Code
+.vscode/
 
 # Python
 __pycache__/
@@ -74,6 +95,9 @@ target/
 *.o
 *.obj
 *.exe
+*.pdb
+*.ilk
+*.idb
 
 # Swift
 *.xcodeproj/
@@ -108,3 +132,8 @@ DerivedData/
 *.xlsx
 *.ppt
 *.pptx
+
+# Miscellaneous
+*.tmp
+*.temp
+*.bak

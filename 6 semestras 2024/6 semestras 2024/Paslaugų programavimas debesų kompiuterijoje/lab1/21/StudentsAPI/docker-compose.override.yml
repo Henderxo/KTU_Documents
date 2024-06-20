@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  studentsapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__StudentsAPIContext=Server=sqldata;Database=StudentDB;User Id=sa;Password=My!P@ssw0rd1;Encrypt=False
+    ports:
+      - "5081:80"
+
+  courseapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__CourseAPIContext=Server=sqldata;Database=CoursesDB;User Id=sa;Password=My!P@ssw0rd1;Encrypt=False
+    ports:
+      - "5082:80"
+
+  sqldata:
+    environment:
+        - SA_PASSWORD=My!P@ssw0rd1
+        - ACCEPT_EULA=Y
+    ports:
+    - "1433:1433"
+    volumes:
+    - lab2-sqldata:/var/opt/mssql
+
+volumes:
+ lab2-sqldata:
+    external: false
