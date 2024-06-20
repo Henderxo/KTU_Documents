@@ -1,0 +1,105 @@
+name: dockercompose17832682208728403656
+services:
+  apigateway:
+    build:
+      context: C:\Users\Edvin\source\repos\Lab2-University
+      dockerfile: ApiGateway/Dockerfile
+    depends_on:
+      coursesapi:
+        condition: service_started
+        required: true
+      studentsapi:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: apigateway
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5251"
+        protocol: tcp
+  coursesapi:
+    build:
+      context: C:\Users\Edvin\source\repos\Lab2-University
+      dockerfile: CoursesAPI/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
+      sqldata:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings__CoursesApiContext: Server=sqldata;Database=CoursesDB;User Id=sa;Password=My!P@ssw0rd1;Encrypt=False
+    image: coursesapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5082"
+        protocol: tcp
+  rabbitmq:
+    healthcheck:
+      test:
+        - CMD
+        - rabbitmqctl
+        - status
+      timeout: 30s
+      interval: 5s
+      retries: 3
+    image: rabbitmq:3-management
+    networks:
+      default: null
+  sqldata:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: My!P@ssw0rd1
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: lab2-sqldata
+        target: /var/opt/mssql
+        volume: {}
+  studentsapi:
+    build:
+      context: C:\Users\Edvin\source\repos\Lab2-University
+      dockerfile: StudentsAPI/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
+      sqldata:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings__StudentsAPIContext: Server=sqldata;Database=StudentDB;User Id=sa;Password=My!P@ssw0rd1;Encrypt=False
+    image: studentsapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5081"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose17832682208728403656_default
+volumes:
+  lab2-sqldata:
+    name: dockercompose17832682208728403656_lab2-sqldata
