@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.12\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\synwork\Arch_LB1_impl1_hdl_.srs  -top  TOP  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\xp2.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_mux.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd -lib work C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd  -log  C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\syntax.log  -fileorder  C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\Arch_LB1_impl1_hdl_.srs -top TOP -prodtype synplify_pro -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\..\..\..\lscc\diamond\3.12\cae_library\synthesis\vhdl\xp2.vhd -lib work ..\..\..\N_alu_s.vhd -lib work ..\..\..\N_cnt.vhd -lib work ..\..\..\N_ctrl.vhd -lib work ..\..\..\N_flg.vhd -lib work ..\..\..\N_mux.vhd -lib work ..\..\..\N_reg.vhd -lib work ..\..\..\N_rom.vhd -lib work ..\..\..\N_top.vhd -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:0
+file:..\synwork\Arch_LB1_impl1_hdl_.srs|io:o|time:0|size:-1|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.12\cae_library\synthesis\vhdl\xp2.vhd|io:i|time:1542234736|size:146261|exec:0|csum:39E3C05F2F228E6747F370884BDFBB67
+file:..\..\..\N_alu_s.vhd|io:i|time:1536045334|size:1899|exec:0|csum:CDE6297BB610E459EA69E20987ABCB27
+file:..\..\..\N_cnt.vhd|io:i|time:1536045334|size:791|exec:0|csum:17E0D3F9B4FF73EC5C998046394D75A8
+file:..\..\..\N_ctrl.vhd|io:i|time:1536045334|size:11007|exec:0|csum:9DF2FBE72F869E73639FD37687AA0827
+file:..\..\..\N_flg.vhd|io:i|time:1536045334|size:1355|exec:0|csum:534C2B9D3AE163DE569EF4FAE7078CC0
+file:..\..\..\N_mux.vhd|io:i|time:1536045334|size:1691|exec:0|csum:86F0BE250E878A945708102375180FF6
+file:..\..\..\N_reg.vhd|io:i|time:1536045334|size:2435|exec:0|csum:B53EF6775F8022EFDF58F336964A6224
+file:..\..\..\N_rom.vhd|io:i|time:1665052534|size:7921|exec:0|csum:237E5E26F160BFE2F3B17BADA0E66721
+file:..\..\..\N_top.vhd|io:i|time:1630511634|size:10003|exec:0|csum:0C84FB1059139B1E4A06E5BD68D15E33
+file:..\syntax.log|io:o|time:1665052535|size:1120|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\c_vhdl.exe|io:i|time:1603959522|size:6088192|exec:1|csum:65784030B81A37FDBF615E387BAB679B

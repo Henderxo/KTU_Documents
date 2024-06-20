@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/5/2022 00:28:59
+#Project Location: C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1; Project name: Arch_LB1
+prj_project open "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/Arch_LB1.ldf"
+prj_src add "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB1/LB1.spf"
+#Stop recording: 10/5/2022 00:41:49

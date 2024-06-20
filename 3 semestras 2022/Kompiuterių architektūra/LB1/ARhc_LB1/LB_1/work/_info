@@ -1,0 +1,355 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB_1
+Ealu_s
+Z1 w1536045334
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z5 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_alu_s.vhd
+Z6 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_alu_s.vhd
+l0
+L16 1
+VI5boc7ZHDS>V]SW3NWjBN2
+!s100 ILA[M:g`d@mGiC8mHVDdQ2
+Z7 OT;C;2020.3;71
+32
+Z8 !s110 1663078206
+!i10b 1
+Z9 !s108 1663078206.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_alu_s.vhd|
+Z11 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_alu_s.vhd|
+!i113 1
+Z12 o-work work -O0
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 5 alu_s 0 22 I5boc7ZHDS>V]SW3NWjBN2
+!i122 4
+l31
+L29 32
+VTjCNT5XN3nGJSC^6_eTiB3
+!s100 eK;mf:?Nz<d9GdNg0B:lO0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecnt
+R1
+R2
+R3
+R4
+!i122 2
+R0
+Z14 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_cnt.vhd
+Z15 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_cnt.vhd
+l0
+Z16 L12 1
+VZ8aFRDc1@4U_eVLY8XEYR0
+!s100 A7_m=i56XZ0>4K9]:X`S=1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_cnt.vhd|
+Z18 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_cnt.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 3 cnt 0 22 Z8aFRDc1@4U_eVLY8XEYR0
+!i122 2
+l24
+L22 19
+Vk06K4>4gI=dBWC=bkaW?S1
+!s100 ZGK[jB0hOBQEG=IXc0G?W3
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ectrl
+R1
+R2
+R3
+R4
+!i122 6
+R0
+Z19 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_ctrl.vhd
+Z20 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_ctrl.vhd
+l0
+Z21 L28 1
+VQTE5lCOXIFYR9IQfZb1^l0
+!s100 d=@gLF@09cNQ]ZeN<@5kP1
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_ctrl.vhd|
+Z23 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_ctrl.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 4 ctrl 0 22 QTE5lCOXIFYR9IQfZb1^l0
+!i122 6
+l79
+L70 444
+V^Y2fAabWTjkjN0FU5?=d<3
+!s100 Ii4PQWS8f[?UDKc4WFi7g2
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Eflg
+R1
+R2
+R3
+R4
+!i122 0
+R0
+Z24 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_flg.vhd
+Z25 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_flg.vhd
+l0
+L34 1
+Vi^`XKCdDmM=jG0`c<?fg43
+!s100 YTI3^b`z7GV@fN]JTC0ge1
+R7
+32
+R8
+!i10b 1
+Z26 !s108 1663078205.000000
+Z27 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_flg.vhd|
+Z28 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_flg.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 3 flg 0 22 i^`XKCdDmM=jG0`c<?fg43
+!i122 0
+l48
+L45 16
+ViDad7f7kn_hOd6o]ikdDW2
+!s100 Y?RFCh=8eOlHSc?[:b=`N0
+R7
+32
+R8
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Emux
+R1
+R2
+R3
+R4
+!i122 5
+R0
+Z29 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_mux.vhd
+Z30 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_mux.vhd
+l0
+R16
+VF`An;B?D?a@z^7ncdXIch3
+!s100 gXPdg=PS4AC`9;4Cz2=JQ1
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_mux.vhd|
+Z32 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_mux.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 3 mux 0 22 F`An;B?D?a@z^7ncdXIch3
+!i122 5
+l32
+L31 24
+VIW@D[lk6kON<VE=ib0lz[3
+!s100 Gj:EfG:zjA0:F7Zzoa2fH2
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
+Ereg
+R1
+R2
+R3
+R4
+!i122 1
+R0
+Z33 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_reg.vhd
+Z34 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_reg.vhd
+l0
+R16
+VV8ddSG05_E?Eo<P7Gl@6o0
+!s100 W9K_JZzz61`1^952G95z62
+R7
+32
+R8
+!i10b 1
+R9
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_reg.vhd|
+Z36 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_reg.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 3 reg 0 22 V8ddSG05_E?Eo<P7Gl@6o0
+!i122 1
+l29
+L26 64
+Vj[1F]C>3`]9NAO@C[1cO]3
+!s100 U243M@k`Em2MO=_U_Qf]Z3
+R7
+32
+R8
+!i10b 1
+R9
+R35
+R36
+!i113 1
+R12
+R13
+Erom
+Z37 w1663078176
+R2
+R3
+R4
+!i122 3
+R0
+Z38 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_rom.vhd
+Z39 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_rom.vhd
+l0
+L26 1
+V4lU0nN`gSZa9aY4e?0VW50
+!s100 7cb]RCGk0l2QSTQE@D1z^1
+R7
+32
+R8
+!i10b 1
+R9
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_rom.vhd|
+Z41 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_rom.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 3 rom 0 22 4lU0nN`gSZa9aY4e?0VW50
+!i122 3
+l55
+L35 33
+VGQQKOed<8@ATjF8B7RmcO3
+!s100 NmI3VO<cKJ7ic6M8;a<LL3
+R7
+32
+R8
+!i10b 1
+R9
+R40
+R41
+!i113 1
+R12
+R13
+Etop
+Z42 w1630511634
+R2
+R3
+R4
+!i122 7
+R0
+Z43 8C:/Users/Lenovo/Desktop/Architechtura/LB1/N_top.vhd
+Z44 FC:/Users/Lenovo/Desktop/Architechtura/LB1/N_top.vhd
+l0
+R21
+VQmn<mQKdV`RLUUSULLo1Z3
+!s100 :L^@jZnlSHb`lBRe5zQaF0
+R7
+32
+R8
+!i10b 1
+R9
+Z45 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Architechtura/LB1/N_top.vhd|
+!s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_top.vhd|
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+R4
+DEx4 work 3 top 0 22 Qmn<mQKdV`RLUUSULLo1Z3
+!i122 7
+l197
+L41 317
+Vi_dok=WV[3C369baFa0_I3
+!s100 jPzPXzdcZR5hR0B96g2cj1
+R7
+32
+R8
+!i10b 1
+R9
+R45
+Z46 !s107 C:/Users/Lenovo/Desktop/Architechtura/LB1/N_top.vhd|
+!i113 1
+R12
+R13

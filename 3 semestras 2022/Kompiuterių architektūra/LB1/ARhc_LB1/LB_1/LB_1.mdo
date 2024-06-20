@@ -1,0 +1,29 @@
+if {![file exists "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB_1/LB_1.mpf"]} { 
+	project new "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB_1" LB_1
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_flg.vhd"
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_reg.vhd"
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_cnt.vhd"
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_rom.vhd"
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_alu_s.vhd"
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_mux.vhd"
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_ctrl.vhd"
+	project addfile "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_top.vhd"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_flg.vhd"
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_reg.vhd"
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_cnt.vhd"
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_rom.vhd"
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_alu_s.vhd"
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_mux.vhd"
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_ctrl.vhd"
+	vcom -work work "C:/Users/Lenovo/Desktop/Architechtura/LB1/N_top.vhd"
+} else {
+	project open "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB_1/LB_1"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_xp2  TOP
+view wave
+add wave /*
+run 1000ns

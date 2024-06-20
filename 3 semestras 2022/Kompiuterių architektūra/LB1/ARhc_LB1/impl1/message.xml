@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CLK</Dynamic>
+            <Navigation>CLK</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>RST</Dynamic>
+            <Navigation>RST</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[0]</Dynamic>
+            <Navigation>Din[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[1]</Dynamic>
+            <Navigation>Din[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[2]</Dynamic>
+            <Navigation>Din[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[3]</Dynamic>
+            <Navigation>Din[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[4]</Dynamic>
+            <Navigation>Din[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[5]</Dynamic>
+            <Navigation>Din[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[6]</Dynamic>
+            <Navigation>Din[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[7]</Dynamic>
+            <Navigation>Din[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[8]</Dynamic>
+            <Navigation>Din[8]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[9]</Dynamic>
+            <Navigation>Din[9]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[10]</Dynamic>
+            <Navigation>Din[10]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[11]</Dynamic>
+            <Navigation>Din[11]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[12]</Dynamic>
+            <Navigation>Din[12]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[13]</Dynamic>
+            <Navigation>Din[13]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[14]</Dynamic>
+            <Navigation>Din[14]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Din[15]</Dynamic>
+            <Navigation>Din[15]</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>18</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd&quot;:168:8:168:15|Signal sflg_cmd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Signal sflg_cmd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd&quot;:186:8:186:18|Signal s_ctrl_data is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Signal s_ctrl_data is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd&quot;:190:8:190:15|Signal s_c_flag is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd</Navigation>
+            <Navigation>190</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>190</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Signal s_c_flag is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd&quot;:191:8:191:18|Signal s_alu_flags is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd</Navigation>
+            <Navigation>191</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>191</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Signal s_alu_flags is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL116 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd&quot;:52:2:52:3|Input data for signal FLG_Dout(1 to 18) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.</Dynamic>
+            <Navigation>CL116</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Input data for signal FLG_Dout(1 to 18) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd&quot;:32:2:32:3|Sharing sequential element A. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Sharing sequential element A. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd&quot;:27:2:27:3|Feedback mux created for signal CNT_A[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Feedback mux created for signal CNT_A[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd&quot;:27:2:27:3|Feedback mux created for signal CNT_Flag. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Feedback mux created for signal CNT_Flag. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL116 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd&quot;:121:2:121:3|Input data for signal ROM_Dout(1 to 69) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.</Dynamic>
+            <Navigation>CL116</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Input data for signal ROM_Dout(1 to 69) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd&quot;:34:2:34:5|All reachable assignments to FLG_ALU_CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>All reachable assignments to FLG_ALU_CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning unused register FLG_TMP_3. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register FLG_TMP_3. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning unused register LS_4(0 to 3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register LS_4(0 to 3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning unused register Logic_Jump_3. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register Logic_Jump_3. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning unused register current_2(1 to 75). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register current_2(1 to 75). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning unused register C_ADDR_4(0 to 7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register C_ADDR_4(0 to 7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning unused register CNT_clk_2. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register CNT_clk_2. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|All reachable assignments to CMD(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>All reachable assignments to CMD(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Optimizing register bit MUX_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Optimizing register bit MUX_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Optimizing register bit ALU_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Optimizing register bit ALU_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Optimizing register bit ALU_CMD(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Optimizing register bit ALU_CMD(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning register bit 3 of MUX_CMD(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 3 of MUX_CMD(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Pruning register bits 4 to 3 of ALU_CMD(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 4 to 3 of ALU_CMD(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:82:2:82:3|Sharing sequential element ROM_CMD. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Sharing sequential element ROM_CMD. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:35:2:35:8|Input port bit 51 of rom_din(1 to 69) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>35</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>35</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Input port bit 51 of rom_din(1 to 69) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd&quot;:39:2:39:6|Input port bits 16 to 18 of flagv(1 to 18) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Input port bits 16 to 18 of flagv(1 to 18) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd&quot;:18:2:18:8|Input port bits 4 to 3 of alu_cmd(4 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Input port bits 4 to 3 of alu_cmd(4 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd&quot;:121:2:121:3|Pruning register bits 1 to 15 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 1 to 15 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd&quot;:121:2:121:3|Pruning register bits 17 to 68 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 17 to 68 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd&quot;:52:2:52:3|Pruning register bits 1 to 17 of FLG_Dout(1 to 18). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 1 to 17 of FLG_Dout(1 to 18). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

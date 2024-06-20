@@ -1,0 +1,37 @@
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":168:8:168:15|Signal sflg_cmd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":186:8:186:18|Signal s_ctrl_data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":190:8:190:15|Signal s_c_flag is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":191:8:191:18|Signal s_alu_flags is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL116 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":52:2:52:3|Input data for signal FLG_Dout(1 to 18) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@W: CL177 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd":32:2:32:3|Sharing sequential element A. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd":27:2:27:3|Feedback mux created for signal CNT_A[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd":27:2:27:3|Feedback mux created for signal CNT_Flag. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL116 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Input data for signal ROM_Dout(1 to 69) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd":34:2:34:5|All reachable assignments to FLG_ALU_CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register FLG_TMP_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register LS_4(0 to 3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register Logic_Jump_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register current_2(1 to 75). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register C_ADDR_4(0 to 7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register CNT_clk_2. Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL190 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Optimizing register bit MUX_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Optimizing register bit ALU_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Optimizing register bit ALU_CMD(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning register bit 3 of MUX_CMD(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning register bits 4 to 3 of ALU_CMD(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Sharing sequential element ROM_CMD. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL247 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":35:2:35:8|Input port bit 51 of rom_din(1 to 69) is unused 
+@W: CL246 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":39:2:39:6|Input port bits 16 to 18 of flagv(1 to 18) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd":18:2:18:8|Input port bits 4 to 3 of alu_cmd(4 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Pruning register bits 1 to 15 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Pruning register bits 17 to 68 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":52:2:52:3|Pruning register bits 1 to 17 of FLG_Dout(1 to 18). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

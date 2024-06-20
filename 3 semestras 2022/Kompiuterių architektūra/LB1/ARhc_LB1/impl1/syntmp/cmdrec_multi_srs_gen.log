@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  TOP  -multisrs  C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\synwork\Arch_LB1_impl1_comp.srs  -osyn  C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\synwork\Arch_LB1_impl1_mult.srs  -log  C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\synlog\Arch_LB1_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top TOP -multisrs ..\synwork\Arch_LB1_impl1_comp.srs -osyn ..\synwork\Arch_LB1_impl1_mult.srs -log ..\synlog\Arch_LB1_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\Arch_LB1_impl1_comp.srs|io:i|time:1665052537|size:16414|exec:0|csum:EB60B3B4B45EB21D25F84EF8F6D39851
+file:..\synwork\Arch_LB1_impl1_mult.srs|io:o|time:1665052538|size:5637|exec:0|csum:
+file:..\synlog\Arch_LB1_impl1_multi_srs_gen.srr|io:o|time:1665052539|size:1158|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603959522|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

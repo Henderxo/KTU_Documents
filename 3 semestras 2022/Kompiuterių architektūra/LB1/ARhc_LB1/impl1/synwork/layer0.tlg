@@ -1,0 +1,85 @@
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":28:7:28:9|Synthesizing work.top.struct.
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":168:8:168:15|Signal sflg_cmd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":186:8:186:18|Signal s_ctrl_data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":190:8:190:15|Signal s_c_flag is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd":191:8:191:18|Signal s_alu_flags is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":34:7:34:9|Synthesizing work.flg.rtl.
+Post processing for work.flg.rtl
+Running optimization stage 1 on FLG .......
+@W: CL116 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":52:2:52:3|Input data for signal FLG_Dout(1 to 18) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd":12:7:12:9|Synthesizing work.reg.rtl.
+@N: CD604 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd":79:4:79:17|OTHERS clause is not synthesized.
+Post processing for work.reg.rtl
+Running optimization stage 1 on REG .......
+@W: CL177 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd":32:2:32:3|Sharing sequential element A. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd":12:7:12:9|Synthesizing work.cnt.rtl.
+Post processing for work.cnt.rtl
+Running optimization stage 1 on CNT .......
+@W: CL113 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd":27:2:27:3|Feedback mux created for signal CNT_A[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd":27:2:27:3|Feedback mux created for signal CNT_Flag. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":26:7:26:9|Synthesizing work.rom.rtl.
+Post processing for work.rom.rtl
+Running optimization stage 1 on ROM .......
+@W: CL116 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Input data for signal ROM_Dout(1 to 69) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd":16:7:16:11|Synthesizing work.alu_s.rtl.
+@N: CD604 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd":53:3:53:16|OTHERS clause is not synthesized.
+Post processing for work.alu_s.rtl
+Running optimization stage 1 on ALU_s .......
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd":34:2:34:5|All reachable assignments to FLG_ALU_CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_mux.vhd":12:7:12:9|Synthesizing work.mux.rtl.
+@N: CD604 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_mux.vhd":49:5:49:19|OTHERS clause is not synthesized.
+Post processing for work.mux.rtl
+Running optimization stage 1 on MUX .......
+@N: CD630 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":28:7:28:10|Synthesizing work.ctrl.rtl.
+Post processing for work.ctrl.rtl
+Running optimization stage 1 on CTRL .......
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register FLG_TMP_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register LS_4(0 to 3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register Logic_Jump_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register current_2(1 to 75). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register C_ADDR_4(0 to 7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning unused register CNT_clk_2. Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|All reachable assignments to CMD(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL190 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Optimizing register bit MUX_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Optimizing register bit ALU_CMD(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Optimizing register bit ALU_CMD(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning register bit 3 of MUX_CMD(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Pruning register bits 4 to 3 of ALU_CMD(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Post processing for work.top.struct
+Running optimization stage 1 on TOP .......
+Running optimization stage 2 on CTRL .......
+@W: CL177 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":82:2:82:3|Sharing sequential element ROM_CMD. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL247 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":35:2:35:8|Input port bit 51 of rom_din(1 to 69) is unused 
+@W: CL246 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd":39:2:39:6|Input port bits 16 to 18 of flagv(1 to 18) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MUX .......
+Running optimization stage 2 on ALU_s .......
+@W: CL246 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd":18:2:18:8|Input port bits 4 to 3 of alu_cmd(4 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on ROM .......
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Pruning register bits 1 to 15 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Pruning register bits 17 to 68 of ROM_Dout(1 to 69). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Register bit ROM_Dout(16) is always 1.
+@N: CL189 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":121:2:121:3|Register bit ROM_Dout(69) is always 0.
+@N: CL159 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":28:2:28:8|Input RST_ROM is unused.
+@N: CL159 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":29:2:29:4|Input clk is unused.
+@N: CL159 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":30:2:30:8|Input ROM_CMD is unused.
+Running optimization stage 2 on CNT .......
+Running optimization stage 2 on REG .......
+Running optimization stage 2 on FLG .......
+@W: CL279 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":52:2:52:3|Pruning register bits 1 to 17 of FLG_Dout(1 to 18). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":52:2:52:3|Register bit FLG_Dout(18) is always 0.
+@N: CL159 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":37:2:37:4|Input CLK is unused.
+@N: CL159 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":38:2:38:4|Input RST is unused.
+@N: CL159 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd":39:2:39:4|Input Xin is unused.
+Running optimization stage 2 on TOP .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Lenovo\Desktop\Architechtura\LB1\ARhc_LB1\impl1\synwork\layer0.rt.csv
+

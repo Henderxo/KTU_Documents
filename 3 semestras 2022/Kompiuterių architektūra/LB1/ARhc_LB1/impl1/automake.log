@@ -1,0 +1,61 @@
+
+edif2ngd  -l "LatticeXP2" -d LFXP2-5E -path "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/impl1" -path "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1"   "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/impl1/Arch_LB1_impl1.edi" "Arch_LB1_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to Arch_LB1_impl1.ngo...
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 10 MB
+
+
+ngdbuild  -a "LatticeXP2" -d LFXP2-5E  -p "C:/lscc/diamond/3.12/ispfpga/mg5a00/data"  -p "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/impl1" -p "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1"  "Arch_LB1_impl1.ngo" "Arch_LB1_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'Arch_LB1_impl1.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5a00/data/mg5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5a00/data/ep5alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/ep5g00/data/ep5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CLK" arg2="CLK"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="RST" arg2="RST"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[0]" arg2="Din[0]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[1]" arg2="Din[1]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[2]" arg2="Din[2]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[3]" arg2="Din[3]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[4]" arg2="Din[4]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[5]" arg2="Din[5]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[6]" arg2="Din[6]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[7]" arg2="Din[7]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[8]" arg2="Din[8]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[9]" arg2="Din[9]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[10]" arg2="Din[10]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[11]" arg2="Din[11]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[12]" arg2="Din[12]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[13]" arg2="Din[13]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[14]" arg2="Din[14]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="Din[15]" arg2="Din[15]"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="18"  />
+
+Design Results:
+     20 blocks expanded
+Complete the first expansion.
+Writing 'Arch_LB1_impl1.ngd' ...
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 17 MB
+

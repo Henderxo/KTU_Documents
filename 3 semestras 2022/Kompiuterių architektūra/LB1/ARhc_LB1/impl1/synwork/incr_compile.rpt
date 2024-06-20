@@ -1,0 +1,64 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-NTU3UH8
+
+Implementation : impl1
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+6        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd (2022-10-06 13:33:48, 2022-10-06 13:35:34)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+12       work.rom.rtl may have changed because the following files changed:
+                        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd (2022-10-06 13:33:48, 2022-10-06 13:35:34) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 17
+FID:  path (timestamp)
+0        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_alu_s.vhd (2018-09-04 10:15:34)
+1        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_cnt.vhd (2018-09-04 10:15:34)
+2        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_ctrl.vhd (2018-09-04 10:15:34)
+3        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_flg.vhd (2018-09-04 10:15:34)
+4        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_mux.vhd (2018-09-04 10:15:34)
+5        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_reg.vhd (2018-09-04 10:15:34)
+7        C:\Users\Lenovo\Desktop\Architechtura\LB1\N_top.vhd (2021-09-01 18:53:54)
+8        C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\xp2.vhd (2018-11-15 00:32:16)
+9        C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 10:23:10)
+10       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 10:23:10)
+11       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 17:26:20)
+12       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 10:23:10)
+13       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 10:23:10)
+14       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 10:23:10)
+15       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 10:23:10)
+16       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 10:23:10)
+17       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 10:23:10)
+
+*******************************************************************
+Unchanged modules: 14
+MID:  lib.cell.view
+0        work.alu_s.rtl
+1        work.alu_s.vhdl
+2        work.cnt.rtl
+3        work.cnt.vhdl
+4        work.ctrl.rtl
+5        work.ctrl.vhdl
+6        work.flg.rtl
+7        work.flg.vhdl
+8        work.mux.rtl
+9        work.mux.vhdl
+10       work.reg.rtl
+11       work.reg.vhdl
+14       work.top.struct
+15       work.top.vhdl

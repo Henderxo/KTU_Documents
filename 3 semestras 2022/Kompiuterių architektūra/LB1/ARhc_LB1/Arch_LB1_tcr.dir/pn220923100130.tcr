@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/23/2022 09:00:17
+#Project Location: C:/Users/nedlia/OneDrive - Kaunas University of Technology/Darbalaukis/LB1/ARhc_LB1; Project name: Arch_LB1
+prj_project open "C:/Users/nedlia/OneDrive - Kaunas University of Technology/Darbalaukis/LB1/ARhc_LB1/Arch_LB1.ldf"
+prj_src add "C:/Users/nedlia/OneDrive - Kaunas University of Technology/Darbalaukis/LB1/ARhc_LB1/LB1/LB1.spf"
+prj_src add "C:/Users/nedlia/OneDrive - Kaunas University of Technology/Darbalaukis/LB1/ARhc_LB1/LB1/LB1.spf"
+#Stop recording: 9/23/2022 10:01:30

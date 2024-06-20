@@ -1,0 +1,14 @@
+#Start recording tcl command: 9/20/2022 16:32:41
+#Project Location: C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1; Project name: Arch_LB1
+prj_project open "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/Arch_LB1.ldf"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB1/LB1.spf"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB1/LB1.spf"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB1/LB1.spf"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB1/LB1.spf"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Lenovo/Desktop/Architechtura/LB1/ARhc_LB1/LB1/LB1.spf"
+#Stop recording: 9/20/2022 19:18:20

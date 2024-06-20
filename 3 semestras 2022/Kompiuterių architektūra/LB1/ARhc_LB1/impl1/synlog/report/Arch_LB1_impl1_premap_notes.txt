@@ -1,0 +1,39 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_ctrl.vhd":82:2:82:3|Removing sequential instance CTRL_Dout[15:0] (in view: work.CTRL(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_ctrl.vhd":82:2:82:3|Removing sequential instance Done (in view: work.CTRL(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_cnt.vhd":27:2:27:3|Removing sequential instance CNT_Flag (in view: work.CNT(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_Dout[15:0] (in view: work.REG_5(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_H (in view: work.REG_5(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_L (in view: work.REG_5(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_Dout[15:0] (in view: work.REG_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_H (in view: work.REG_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_L (in view: work.REG_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_Dout[15:0] (in view: work.REG_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_H (in view: work.REG_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_L (in view: work.REG_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_Dout[15:0] (in view: work.REG_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_H (in view: work.REG_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_L (in view: work.REG_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_Dout[15:0] (in view: work.REG_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_H (in view: work.REG_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_L (in view: work.REG_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":292:1:292:5|Removing instance REG_B (in view: work.TOP(struct)) of type view:work.REG_4(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":256:1:256:4|Removing instance ALU1 (in view: work.TOP(struct)) of type view:work.ALU_s(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":265:1:265:4|Removing instance ROM1 (in view: work.TOP(struct)) of type view:work.ROM(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":347:1:347:5|Removing instance FLG_A (in view: work.TOP(struct)) of type view:work.FLG(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":272:1:272:4|Removing instance CNT1 (in view: work.TOP(struct)) of type view:work.CNT(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":279:1:279:5|Removing instance REG_A (in view: work.TOP(struct)) of type view:work.REG_5(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":303:1:303:5|Removing instance REG_C (in view: work.TOP(struct)) of type view:work.REG_3(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":314:1:314:5|Removing instance REG_D (in view: work.TOP(struct)) of type view:work.REG_2(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":325:1:325:5|Removing instance REG_E (in view: work.TOP(struct)) of type view:work.REG_1(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":336:1:336:5|Removing instance REG_F (in view: work.TOP(struct)) of type view:work.REG_0(rtl) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":243:1:243:4|Removing instance MUXA (in view: work.TOP(struct)) of type view:work.MUX(rtl) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_H (in view: work.REG_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_reg.vhd":32:2:32:3|Removing sequential instance REG_FLAG_L (in view: work.REG_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\lenovo\desktop\architechtura\lb1\n_top.vhd":199:1:199:5|Removing instance CTRL1 (in view: work.TOP(struct)) of type view:work.CTRL(rtl) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_ctrl.vhd":82:2:82:3|Removing sequential instance REG_B_CMD[2:0] (in view: work.CTRL(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lenovo\desktop\architechtura\lb1\n_ctrl.vhd":82:2:82:3|Removing sequential instance RST_COMP[8:0] (in view: work.CTRL(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist TOP 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

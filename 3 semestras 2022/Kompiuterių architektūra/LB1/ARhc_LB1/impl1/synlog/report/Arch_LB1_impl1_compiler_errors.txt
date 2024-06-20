@@ -1,0 +1,2 @@
+@E: CD395 :"C:\Users\Lenovo\Desktop\Architechtura\LB1\N_rom.vhd":48:3:48:72|Constant width 68 does not match context width 69
+
