@@ -1,6 +1,0 @@
-C:\Users\Ziber\Raudonakmenis\raudonakmenis\Raudonakmenis\obj\Release\GrammarLexer.cs
-C:\Users\Ziber\Raudonakmenis\raudonakmenis\Raudonakmenis\obj\Release\GrammarParser.cs
-C:\Users\Ziber\Raudonakmenis\raudonakmenis\Raudonakmenis\obj\Release\GrammarListener.cs
-C:\Users\Ziber\Raudonakmenis\raudonakmenis\Raudonakmenis\obj\Release\GrammarBaseListener.cs
-C:\Users\Ziber\Raudonakmenis\raudonakmenis\Raudonakmenis\obj\Release\GrammarVisitor.cs
-C:\Users\Ziber\Raudonakmenis\raudonakmenis\Raudonakmenis\obj\Release\GrammarBaseVisitor.cs

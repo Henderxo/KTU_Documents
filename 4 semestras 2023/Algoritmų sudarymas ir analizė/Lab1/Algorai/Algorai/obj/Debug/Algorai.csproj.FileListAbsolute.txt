@@ -1,7 +1,0 @@
-C:\Users\Lenovo\source\repos\Algorai\Algorai\bin\Debug\Algorai.exe.config
-C:\Users\Lenovo\source\repos\Algorai\Algorai\bin\Debug\Algorai.exe
-C:\Users\Lenovo\source\repos\Algorai\Algorai\bin\Debug\Algorai.pdb
-C:\Users\Lenovo\source\repos\Algorai\Algorai\obj\Debug\Algorai.csprojAssemblyReference.cache
-C:\Users\Lenovo\source\repos\Algorai\Algorai\obj\Debug\Algorai.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\source\repos\Algorai\Algorai\obj\Debug\Algorai.exe
-C:\Users\Lenovo\source\repos\Algorai\Algorai\obj\Debug\Algorai.pdb
